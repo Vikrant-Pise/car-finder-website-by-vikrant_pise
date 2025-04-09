@@ -1,12 +1,84 @@
-# React + Vite
+# 🚗 Car Finder Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Car Finder Web Application built with React.js and Bootstrap.  
+This app allows users to search, filter, sort, and view details of various cars. Users can also add cars to their wishlist using LocalStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+[View Live App](https://your-vercel-deployment-link.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Search Cars by Name
+- Filter Cars by:
+  - Brand
+  - Fuel Type
+  - Seating Capacity
+  - Price Range
+- Sort Cars by Price
+- View Car Details Page
+- Add to Wishlist (Stored in LocalStorage)
+- Remove from Wishlist
+- Pagination
+- Responsive UI using Bootstrap
+- Real-time UI Updates
+- Clear Wishlist Button
+
+---
+
+## Tech Stack
+
+- React.js
+- React Router DOM
+- Bootstrap 5
+- LocalStorage (Wishlist)
+- Mock Data (cars.json)
+
+---
+
+## Project Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/car-finder-app.git
+cd car-finder-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the Project Locally
+bash
+Copy
+Edit
+npm start
+Visit → http://localhost:3000
+
+Folder Structure
+bash
+Copy
+Edit
+src/
+│
+├── components/        # Reusable Components
+│
+├── pages/             # Home & Car Details Pages
+│
+├── data/              # cars.json (Mock Data)
+│
+├── utils/             # LocalStorage Utilities
+│
+└── App.js             # Routing & Main Logic
+
+Deployment
+Pushcode to GitHub
+
+Credits
+Developed by Vikrant Pise
+
+License
+This project is for educational and portfolio purposes only.
