@@ -1,0 +1,30 @@
+body {
+  background-color: #cdcdcd37;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-car-festival-auto-accessories-promotion-banner-poster-image_194643.jpg");
+
+  /* background-image: url('https://media.istockphoto.com/id/1254721353/photo/desert-highway-death-valley.jpg?s=2048x2048&w=is&k=20&c=RCNQwB5vRvPK2JMpp-oD7aahEU79pTT78fGaT4xiyeQ='); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-blend-mode: overlay; 
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.social-icon {
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0dcaf0;
+  transform: scale(1.1);
+}
